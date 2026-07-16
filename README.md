@@ -1,102 +1,44 @@
 # Python Projects
 
-Pythonで作成した学習用プロジェクトをまとめたリポジトリです。
+Pythonで作成したコンソールアプリケーション集です。
 
-このリポジトリでは、コンソールアプリケーション、CSVファイルの操作、Turtleによる図形描画、関数、ループ、再帰処理などを扱っています。
+CSVファイルの操作、入力チェック、Turtleによる図形描画、関数、繰り返し処理、再帰処理などを使用しています。
 
-## Projects
+## プロジェクト一覧
 
-### 1. Japan Area Code Finder
+### japan-area-code-finder
 
-日本の都市名と市外局番を検索・管理するコンソールアプリケーションです。
+日本の都市名と市外局番を検索・管理するコンソールアプリです。
 
-CSVファイルを使用してデータを保存し、都市名から市外局番を検索したり、市外局番から都市名を検索したりできます。
+使用技術：Python, CSV, Regular Expression, pathlib
 
-主な機能：
+### turtle-fractal-generator
 
-* 都市名から市外局番を検索
-* 市外局番から都市名を検索
-* データの一覧表示
-* データの追加
-* データの変更
-* データの削除
-* CSVファイルへの保存
-* 入力チェック
+Turtleを使用して、幾何学模様やフラクタル図形を描画するアプリです。
 
-使用技術：
+使用技術：Python, Turtle, Function, for Loop, Recursion
+
+## 使用技術
 
 * Python
 * CSV
 * Regular Expression
 * pathlib
-
-フォルダ：
-
-japan-area-code-finder/
-
----
-
-### 2. Turtle Fractal Generator
-
-Pythonの`Turtle`モジュールを使用して、幾何学模様やフラクタル図形を描画するアプリケーションです。
-
-回転する正方形、幾何学模様、コッホ曲線、コッホ雪片を描画できます。
-
-主な機能：
-
-* 回転する正方形の描画
-* 幾何学模様の描画
-* コッホ曲線の描画
-* コッホ雪片の描画
-* 再帰レベルの選択
-* Turtleウィンドウでの描画
-
-使用技術：
-
-* Python
 * Turtle
 * Function
 * for Loop
+* while Loop
 * Recursion
 * Input Validation
 
-フォルダ：
-
-turtle-fractal-generator/
-
-## Repository Structure
-
-Python/
-├── japan-area-code-finder/
-│   ├── main.py
-│   ├── city_codes.csv
-│   └── README.md
-├── turtle-fractal-generator/
-│   ├── main.py
-│   └── README.md
-└── README.md
-
 ## 実行方法
 
-各プロジェクトのフォルダに移動し、次のコマンドで実行します。
+各プロジェクトのフォルダで、以下のコマンドを実行します。
 
-python main.py
+`python main.py`
 
-詳しい使い方は、それぞれのプロジェクト内の`README.md`に記載しています。
+## 実装について
 
-## 学習した内容
+このフォルダでは、Pythonを使ったコンソール操作、CSVファイルの読み書き、入力値チェック、図形描画、再帰処理などを扱っています。
 
-このリポジトリのプロジェクトを通して、以下の内容を学習しました。
-
-* Pythonの基本文法
-* 関数を使用した処理の分割
-* `while`と`for`を使用した繰り返し処理
-* ユーザー入力の処理
-* 入力値のチェック
-* CSVファイルの読み込みと書き込み
-* リストと辞書を使用したデータ管理
-* 正規表現による文字列チェック
-* Turtleを使用した図形描画
-* 再帰処理によるフラクタル図形の作成
-
-
+それぞれのプロジェクトは、コマンドライン上で操作できるアプリケーションとして作成しました。
